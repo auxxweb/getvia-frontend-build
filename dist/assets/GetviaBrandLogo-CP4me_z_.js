@@ -1,0 +1,1 @@
+import{i as e}from"./google-maps-Dmm2uAc5.js";var t=`/getvia-brand-logo.png`,n=e();function r({className:e=`h-[32px] w-auto max-w-[168px] object-contain`,alt:r=`Getvia`}){return(0,n.jsx)(`img`,{src:t,alt:r,className:e,width:121,height:44,loading:`eager`,decoding:`async`})}export{r as t};
