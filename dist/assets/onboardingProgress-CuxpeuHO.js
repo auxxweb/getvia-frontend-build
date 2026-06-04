@@ -1,0 +1,1 @@
+var e=`getvia_onboarding_max_step`;function t(){try{let t=parseInt(sessionStorage.getItem(e)||`0`,10);return Number.isFinite(t)&&t>=0?t:0}catch{return 0}}function n(n){try{let r=t();sessionStorage.setItem(e,String(Math.max(r,n)))}catch{}}function r(){try{sessionStorage.removeItem(e)}catch{}}export{t as n,n as r,r as t};
