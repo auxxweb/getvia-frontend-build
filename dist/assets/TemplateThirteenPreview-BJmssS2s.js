@@ -1,1 +1,0 @@
-import{r as e}from"./rolldown-runtime-S-ySWqyJ.js";import{i as t,o as n}from"./google-maps-Dmm2uAc5.js";import{TemplateThirteen as r}from"./TemplateThirteen-wuiMyFiR.js";var i=e(n(),1),a=t(),o=(0,i.memo)(function(){return(0,a.jsx)(r,{businessData:{}})});export{o as TemplateThirteenPreview};
