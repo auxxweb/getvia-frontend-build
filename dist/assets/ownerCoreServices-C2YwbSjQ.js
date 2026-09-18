@@ -1,0 +1,1 @@
+function e(e){let t=e?.ownerCoreServices?.cards;return Array.isArray(t)&&t.length>0}export{e as t};

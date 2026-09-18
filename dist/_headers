@@ -1,0 +1,11 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# AI Builder / listing editor embed the consumer preview route in an iframe.
+/preview/*
+  X-Frame-Options: ALLOWALL
+  Content-Security-Policy: frame-ancestors 'self' https://business.getvia.in https://admin.getvia.in http://localhost:5175 http://127.0.0.1:5175 http://localhost:5174 http://127.0.0.1:5174
