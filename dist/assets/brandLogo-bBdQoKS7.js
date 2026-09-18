@@ -1,1 +1,0 @@
-var e=`/getvia-brand-logo.png`,t=`/app-icon-192.png`;export{e as n,t};

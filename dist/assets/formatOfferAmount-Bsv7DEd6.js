@@ -1,1 +1,0 @@
-function e(e,t){let n=String(t??``).trim();if(!n)return``;let r=String(e??``).trim();return!r||n.startsWith(r)?n:r.length>1&&!/[\u20A0-\u20CF$€£¥₹]/.test(r[r.length-1])?`${r} ${n}`:`${r}${n}`}export{e as t};
